@@ -1,69 +1,69 @@
 {
-  "url": "https://calpa.me",
+  "url": "https://blog.ymmmtym.com",
   "meta": {
-    "favicon": "https://i.imgur.com/PO9Y4fT.jpg",
-    "keyword": "calpa, blog, JavaScript",
-    "description": "Calpa 的技術博客，開發日常，以及遇到的坑",
-    "theme_color": "#384f7c",
-    "google_site_verification": "riZBcestky7i9xY__A-5J-2EE65T75X1u-zgbss37Io"
+    "favicon": "https://i.imgur.com/URVOqgc.jpg",
+    "keyword": "ymmmtym, blog, engneer",
+    "description": "Infra Engnerr ymmmtymのブログです。技術的な発信をします。",
+    "theme_color": "#dda0dd",
+    "google_site_verification": "TBD"
   },
-  "name": "calpa",
-  "about": "/2018/05/01/about-calpa-liu/",
-  "email": "calpaliu@gmail.com",
+  "name": "ymmmtym",
+  "about": "/about",
+  "email": "ymmmtym@gmail.com",
   "stats": {
-    "image": "https://i.imgur.com/VjBWiSt.png",
-    "title": "過去三十日數據",
-    "description": "過去三十日數據"
+    "image": "https://i.imgur.com/URVOqgc.jpg",
+    "title": "ymmmtym's blog",
+    "description": "ymmmtym's blog"
   },
-  "title": "Calpa 的技術博客",
+  "title": "ymmmtym's Blog",
   "gitalk": {
-    "repo": "calpa.github.io",
-    "admin": ["calpa"],
-    "owner": "calpa",
-    "clientID": "18255f031b5e11edd98a",
-    "clientSecret": "2ff6331da9e53f9a91bcc991d38d550c85026714",
+    "repo": "blog",
+    "admin": ["ymmmtym"],
+    "owner": "ymmmtym",
+    "clientID": "a672a29d2230cda1eddc",
+    "clientSecret": "50e0779eb447d3eedf745d0eb2a6e04d1c8391d2",
     "pagerDirection": "first",
     "distractionFreeMode": true
   },
-  "License": "by",
+  "License": "calpa",
   "friends": [
     {
-      "href": "https://calpa.me",
-      "title": "Calpa's Blog"
+      "href": "https://ymmmtym.com",
+      "title": "ymmmtym's Portfolio"
     }
   ],
-  "iconUrl": "https://i.imgur.com/kjt2x52.jpg",
-  "wordings": ["GatsbyJS, ReactJS", "全週期開發者"],
+  "iconUrl": "https://i.imgur.com/URVOqgc.jpg",
+  "wordings": ["Infra Engneer", "Cloud"],
   "gaTrackId": "UA-84737574-3",
   "navbarList": [
     {
-      "href": "/guestbook/",
-      "title": "留言簿"
+      "href": "/hello-world/",
+      "title": "はじめに"
     },
     {
       "href": "/tags/",
-      "title": "Tags"
+      "title": "Tag一覧"
     },
     {
-      "href": "/2018/05/01/about-calpa-liu/",
-      "title": "關於作者"
+      "href": "/about",
+      "title": "このサイトついて"
     }
   ],
   "redirectors": [
     {
-      "toPath": "/2018/05/01/about-calpa-liu/",
+      "toPath": "TBD",
       "fromPath": "/about/"
     }
   ],
   "gaOptimizeId": "GTM-WHP7SC5",
   "carouselItems": [
     {
-      "src": "https://i.imgur.com/gw91CuI.jpg",
+      "src": "https://i.imgur.com/URVOqgc.jpg",
       "target": "/stats/"
     }
   ],
-  "zhihuUsername": "piao-xue-wu-ying",
-  "githubUsername": "calpa",
+  "zhihuUsername": "ymmmtym",
+  "githubUsername": "ymmmtym",
   "maxPostsInPage": 10,
-  "facebook": "calpablog"
+  "facebook": "ymmmtym"
 }

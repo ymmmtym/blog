@@ -11,9 +11,9 @@ const Information = ({ totalCount, posts }) => (
   <div className="d-none d-lg-block information my-2">
     <hr />
     <p>
-      共&nbsp;
+      &nbsp;
       {totalCount}
-      &nbsp;篇文章
+      &nbsp;記事が投稿されています
     </p>
     <hr />
     <LatestPost posts={posts} />
