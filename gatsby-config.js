@@ -2,7 +2,7 @@ module.exports = {
   pathPrefix: '/',
   siteMetadata: {
     title: 'ymmmtym&apos;s Blog',
-    description: 'Technical Blog - ymmmtym',
+    description: 'ymmmtym\'s Technical Blog',
     siteUrl: 'https://blog.ymmmtym.com',
     author: 'ymmmtym',
   },
@@ -64,12 +64,12 @@ module.exports = {
         display: 'standalone',
         icons: [
           {
-            src: 'https://i.imgur.com/URVOqgcs.png',
+            src: '/favicons/ymmmtym-192x192.jpg',
             sizes: '192x192',
             type: 'image/png',
           },
           {
-            src: 'https://i.imgur.com/URVOqgc.png',
+            src: '/favicons/ymmmtym-512x512.jpg',
             sizes: '512x512',
             type: 'image/png',
           },
