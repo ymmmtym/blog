@@ -14,7 +14,7 @@ tags:
 
 こんにちは。ymmmtymです。
 
-静的サイトジェネレーターのGatsbyJSを使用してブログを開設しましたので、
+静的サイトジェネレーターのGatsbyJSを使用してブログを開設しましたので、  
 それまでの過程を3回に分けて書いていきたいと思います。
 
 実際のソースコードは[こちら](https://github.com/ymmmtym/blog)になります。
@@ -25,7 +25,23 @@ tags:
 
 ---
 
-## Get Startedを参考に自分好みのブログを開設する
+## 目次
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [Get Startedより自分好みのブログを開設する](#get-started%E3%82%88%E3%82%8A%E8%87%AA%E5%88%86%E5%A5%BD%E3%81%BF%E3%81%AE%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92%E9%96%8B%E8%A8%AD%E3%81%99%E3%82%8B)
+  - [gatsbyのインストール](#gatsby%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB)
+  - [使用するテンプレート選択](#%E4%BD%BF%E7%94%A8%E3%81%99%E3%82%8B%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88%E9%81%B8%E6%8A%9E)
+  - [ソースコードのダウンロード](#%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%B3%E3%83%BC%E3%83%89%E3%81%AE%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89)
+  - [開発用サーバ起動](#%E9%96%8B%E7%99%BA%E7%94%A8%E3%82%B5%E3%83%BC%E3%83%90%E8%B5%B7%E5%8B%95)
+  - [ブログのbuild](#%E3%83%96%E3%83%AD%E3%82%B0%E3%81%AEbuild)
+- [さいごに](#%E3%81%95%E3%81%84%E3%81%94%E3%81%AB)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+## Get Startedより自分好みのブログを開設する
 
 ---
 
@@ -41,17 +57,17 @@ npm install -g gatsby-cli
 
 これで`gatsby`コマンドが使用できるようになりました。
 
-### 使用するテンプレート
+### 使用するテンプレート選択
 
 Get Startedでは、`gatsby-starter-hello-world`と言うテンプレートが使用されています。
 
-デフォルトのページは以下のように`Hello world!`のみ記載されたシンプルなものになっています。
+デフォルトのページは以下のように`Hello world!`だけ記載されたシンプルなものになっています。
 
 ![gatsby-starter-hello-world](https://www.gatsbyjs.com/static/5fc26b098a6d1b3327812166ccde80a2/73c85/6de89bdd6911e106630e48eb69e56cd1.png)
 
 ※Demoサイトは[こちら](https://gatsby-starter-hello-world-demo.netlify.app/)です。
 
-ブログのような自分好みのテンプレートを使用したいので、
+ブログのような自分好みのテンプレートを使用したいので、  
 [gatsby-starter-calpa-blog](https://www.gatsbyjs.com/starters/calpa/gatsby-starter-calpa-blog)を使って、ブログを開設していきます。
 
 ![gatsby-starter-calpa-blog](https://www.gatsbyjs.com/static/f81598d7cbc8456a21b1e97b3dd2df46/73c85/59fb651f52f97cafc5e2fec63c05680d-1.png)
@@ -107,7 +123,7 @@ gatsby develop
 
 ![gatsby-starter-calpa-blog](https://imgur.com/RgF4cDu.jpg)
 
-### ブログをbuildする
+### ブログのbuild
 
 buildコマンドで静的ファイルの作成ができます。
 
@@ -115,7 +131,7 @@ buildコマンドで静的ファイルの作成ができます。
 gatsby build
 ```
 
-`public`ディレクトリに静的ファイルが作成されるので、
+`public`ディレクトリに静的ファイルが作成されるので、  
 これをproduction環境のWebサーバにデプロイすればブログが公開できます。
 
 また、serveコマンドでproduction環境としてbuildした内容をローカルで確認できます。
