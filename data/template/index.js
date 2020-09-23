@@ -12,3 +12,6 @@ const config = Object.assign(defaults, secret);
 module.exports = {
   config,
 };
+
+// debug
+console.log(process.env);
