@@ -20,12 +20,12 @@
     "repo": "blog",
     "admin": ["ymmmtym"],
     "owner": "ymmmtym",
-    "clientID": "SECRET",
-    "clientSecret": "SECRET",
+    // "clientID": "SECRET",
+    // "clientSecret": "SECRET",
     "pagerDirection": "first",
     "distractionFreeMode": true
   },
-  "License": "calpa",
+  "License": "ymmmtym",
   "friends": [
     {
       "href": "https://ymmmtym.com",
