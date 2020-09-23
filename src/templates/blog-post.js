@@ -7,7 +7,7 @@ import { graphql } from 'gatsby';
 
 import 'gitalk/dist/gitalk.css';
 
-import { parseChineseDate } from '../api';
+import { parseDate } from '../api';
 
 // import ExternalLink from '../components/ExternalLink';
 import Sidebar from '../components/Sidebar';
@@ -23,9 +23,9 @@ import { config } from '../../data';
 // Styles
 import './blog-post.scss';
 
-const { name, iconUrl, gitalk, } = config;
+const { name, iconUrl, gitalk } = config;
 
-const bgWhite = { padding: '10px 30px', background: 'white' };
+// const bgWhite = { padding: '10px 30px', background: 'white' };
 
 // Prevent webpack window problem
 const isBrowser = typeof window !== 'undefined';
@@ -67,7 +67,7 @@ class BlogPost extends Component {
           title={title}
           authorName={name}
           authorImage={iconUrl}
-          subTitle={parseChineseDate(date)}
+          subTitle={parseDate(date)}
         />
         <Sidebar />
         <div className="col-xl-7 col-lg-6 col-md-12 col-sm-12 order-10 content">
