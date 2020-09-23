@@ -20,8 +20,8 @@
     "repo": "blog",
     "admin": ["ymmmtym"],
     "owner": "ymmmtym",
-    // "clientID": "SECRET",
-    // "clientSecret": "SECRET",
+    "clientID": "SECRET",
+    "clientSecret": "SECRET",
     "pagerDirection": "first",
     "distractionFreeMode": true
   },
