@@ -41,8 +41,6 @@ class BlogPost extends Component {
     const { frontmatter, id: graphqlId } = this.data.content.edges[0].node;
     const { title, id } = frontmatter;
 
-    gitalk.clientID = process.env.GITHUB_OAUTH_CLIENT_ID || '';
-    gitalk.clientSecret = process.env.GITHUB_OAUTH_CLIENT_SECRET || '';
     const GitTalkInstance = new Gitalk({
       ...gitalk,
       title,
