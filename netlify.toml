@@ -1,3 +1,3 @@
 [build]
   publish = "public"
-  command = "env && npm run build"
+  command = "eval 'cat <<< \"$(cat date/template/config.json)\"' > date/template/config.json && npm run build"

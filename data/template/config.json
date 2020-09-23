@@ -17,6 +17,8 @@
   },
   "title": "ymmmtym's Blog",
   "gitalk": {
+    "clientID": "${GITHUB_OAUTH_CLIENT_ID}",
+    "clientSecret": "${GITHUB_OAUTH_CLIENT_SECRET}",
     "repo": "blog",
     "admin": ["ymmmtym"],
     "owner": "ymmmtym",
