@@ -1,7 +1,13 @@
-let config = require('./config');
-const secret = require('./secret');
+const defaults = require('./config');
 
-config = Object.assign(config, secret);
+const secret = [{
+  gitalk: {
+    clientID: process.env.GITHUB_OAUTH_CLIENT_ID,
+    clientSecret: process.env.GITHUB_OAUTH_CLIENT_SECRET,
+  },
+}];
+
+const config = Object.assign(defaults, secret);
 
 module.exports = {
   config,
