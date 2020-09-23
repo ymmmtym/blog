@@ -14,4 +14,6 @@ module.exports = {
 };
 
 // debug
-console.log(process.env);
+console.log(process.env.GITHUB_OAUTH_CLIENT_ID);
+console.log(process.env.GITHUB_OAUTH_CLIENT_SECRET);
+console.log(process.env.PWD);
