@@ -1,7 +1,4 @@
-let config = require('./config');
-const secret = require('./secret');
-
-config = Object.assign(config, secret);
+const config = require('./config');
 
 module.exports = {
   config,
