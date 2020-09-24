@@ -7,5 +7,9 @@ public/
 .DS_Store
 yarn-error.log
 
+# keys
+.env
 # Local keys
 .env.development
+# Prod keys
+.env.production
