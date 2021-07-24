@@ -3,10 +3,10 @@ require('dotenv').config();
 module.exports = {
   pathPrefix: '/',
   siteMetadata: {
-    title: 'ymmmtym&apos;s Blog',
-    description: 'ymmmtym\'s Technical Blog',
+    title: 'yumenotamayume&apos;s Blog',
+    description: 'yumenotamayume\'s Technical Blog',
     siteUrl: 'https://blog.ymmmtym.com',
-    author: 'ymmmtym',
+    author: 'yumenomatayume',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -58,8 +58,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: "ymmmtym's Blog",
-        short_name: 'ymmmtym',
+        name: "yumenomatayume's Blog",
+        short_name: 'yumenomatayume',
         start_url: '/',
         background_color: '#ededed',
         theme_color: '#384f7c',

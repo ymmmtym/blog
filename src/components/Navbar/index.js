@@ -33,7 +33,7 @@ const Navbar = () => (
           gotoPage('/');
         }}
       >
-        <span className="brand-logo">ymmmtym</span>
+        <span className="brand-logo">yumenomatayume</span>
         &apos;s Blog
       </button>
       <button

@@ -2,20 +2,20 @@
   "url": "https://blog.ymmmtym.com",
   "meta": {
     "favicon": "https://i.imgur.com/URVOqgc.jpg",
-    "keyword": "ymmmtym, blog, engneer",
-    "description": "Infra Engnerr ymmmtymのブログです。技術的な発信をします。",
+    "keyword": "yumenomatayume, ymmmtym, blog, engneer",
+    "description": "Infra Engnerr yumenomatayumeのブログです。技術的な発信をします。",
     "theme_color": "#dda0dd",
     "google_site_verification": "ElOFR7SNyDSKkXwfg1nLqw4EG1v_aVNIq7zmApief84"
   },
-  "name": "ymmmtym",
+  "name": "yumenomatayume",
   "about": "/about",
   "email": "yume.to.mata.yume@gmail.com",
   "stats": {
     "image": "https://i.imgur.com/URVOqgc.jpg",
-    "title": "ymmmtym's blog",
-    "description": "ymmmtym's blog"
+    "title": "yumenomatayume's Blog",
+    "description": "yumenomatayume's Blog"
   },
-  "title": "ymmmtym's Blog",
+  "title": "yumenomatayume's Blog",
   "gitalk": {
     "repo": "blog",
     "admin": ["ymmmtym"],
@@ -23,11 +23,11 @@
     "pagerDirection": "first",
     "distractionFreeMode": true
   },
-  "License": "ymmmtym",
+  "License": "yumenomatayume",
   "friends": [
     {
       "href": "https://ymmmtym.com",
-      "title": "ymmmtym's Portfolio"
+      "title": "yumenomatayume's Portfolio"
     }
   ],
   "iconUrl": "https://i.imgur.com/URVOqgc.jpg",
