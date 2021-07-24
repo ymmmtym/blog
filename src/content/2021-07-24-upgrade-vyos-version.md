@@ -4,7 +4,7 @@ id: 2021/07/24/01
 title: VyOSのバージョンをアップグレードする
 slug: /2021/07/24/01
 date: 2021-07-24T18:30:03.125Z
-headerImage: "https://imgur.com/1iUZtX8.jpg"
+headerImage: "https://imgur.com/4p9fGcp.png"
 description: ""
 tags:
   - vyos
@@ -18,6 +18,7 @@ VyOSはversion1.3以降からrolling releaseで提供されており、最新版
 以下のサイトからダウンロードする事ができます。
 
 https://downloads.vyos.io/?dir=rolling/current/amd64
+
 ## アップグレード手順
 
 アップグレードは簡単な手順で実施できます。
