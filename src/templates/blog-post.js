@@ -82,7 +82,7 @@ class BlogPost extends Component {
         <SEO
           title={title}
           url={slug}
-          siteTitleAlt="ymmmtym's Blog"
+          siteTitleAlt="yumenomatayume's Blog"
           isPost={false}
           description={excerpt}
           image={headerImage || 'https://i.imgur.com/M795H8A.jpg'}
