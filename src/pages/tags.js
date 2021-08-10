@@ -37,6 +37,7 @@ const TagPage = ({ data }) => {
         <Sidebar />
 
         <div className="col order-2">
+          <p>投稿された記事のtag一覧です。</p>
           {tags.map(item => (
             <Tag name={item} key={item} count={mapping[item]} />
           ))}

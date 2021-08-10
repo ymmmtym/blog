@@ -72,7 +72,7 @@ class BlogPost extends Component {
           subTitle={parseDate(date)}
         />
         <Sidebar />
-        <div className="col-xl-7 col-lg-6 col-md-12 col-sm-12 order-10 content">
+        <div className="col-xl-9 col-lg-8 col-md-18 col-sm-18 order-10 content">
           <Content post={html} />
           <div id="gitalk-container" />
         </div>
