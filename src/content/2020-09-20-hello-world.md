@@ -11,6 +11,7 @@ tags:
   - gatsby
   - blog
   - react
+  - ポエム
 ---
 
 初めまして。[yumenomatayume](/about)と申します。  
@@ -20,6 +21,10 @@ tags:
 ブログを始めたいと思っている方にとって、いいきっかけになればと思います。
 
 よろしくお願いします。
+
+このブログ開設するためのメモは以下のscrapboxに保存しています。
+
+[Gatsbyで個人ブログを開設する - yumenomatayume](https://scrapbox.io/yumenomatayume/Gatsby%E3%81%A7%E5%80%8B%E4%BA%BA%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92%E9%96%8B%E8%A8%AD%E3%81%99%E3%82%8B)
 
 ---
 

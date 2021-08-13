@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 id: 2021/07/24/01
-title: VyOSのバージョンをアップグレードする
+title: VyOSのバージョンをアップグレードする手順
 slug: /2021/07/24/01
 date: 2021-07-24T18:30:03.125Z
 headerImage: "https://imgur.com/4p9fGcp.png"
@@ -13,15 +13,14 @@ tags:
 
 自宅の開発環境でVyOSを使っています。
 
-VyOSはversion1.3以降からrolling releaseで提供されており、最新版が毎日アップデートされています。
+VyOSはversion1.3以降からrolling releaseで提供されており、最新版が日々アップデートされています。以下のサイトからダウンロードする事ができます。
 
-以下のサイトからダウンロードする事ができます。
-
-https://downloads.vyos.io/?dir=rolling/current/amd64
+[rolling/current/amd64 • downloads.vyos.io](https://downloads.vyos.io/?dir=rolling/current/amd64)
 
 ## アップグレード手順
 
-アップグレードは簡単な手順で実施できます。
+アップグレードは簡単な手順で実施できます。  
+vyosにログインして以下を実行します。
 
 ### TL;DR
 
@@ -39,6 +38,8 @@ delete system image ? # 古いイメージを選択して削除する
 <Yes>
 ```
 
+### 手順
+
 最新ISOのダウンロードと適用します。
 
 ```bash
@@ -51,7 +52,7 @@ Download complete.
 Done.
 Checking for digital signature file...
 Failed to download https://downloads.vyos.io/rolling/current/amd64/vyos-rolling-latest.iso.asc.
-urllib.error.HTTPError: HTTP Error 404: Not Found
+urllib.error.HTTPError: HTTP Error 404: Not Found # *1
 Do you want to continue without signature check? (yes/no) [yes] # Enterを入力
 Checking SHA256 checksums of files on the ISO image... OK.
 Done!
@@ -68,8 +69,9 @@ Copying SSH keys...
 Running post-install script...
 Setting up grub configuration...
 Done.
-
 ```
+
+*1: 証明書ファイルがないため404エラーになってますが、isoはダウンロード完了しているので無視して問題ありません。
 
 DLが終わったらrebootします。
 
