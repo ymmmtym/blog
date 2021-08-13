@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 id: 2021/07/25/01
-title: MetalLB超入門(L2でのロードバランス)
+title: MetalLBをinstallする手順(L2ネットワーク版)
 slug: /2021/07/25/01
 date: 2021-07-25T01:50:00.125Z
 headerImage: "https://imgur.com/a5HEHEH.png"
@@ -17,15 +17,15 @@ tags:
 
 自宅の検証環境におうちk8sを導入しています。
 
-AWSやGCPなどのクラウドプロバイダの場合、KubernetesのServiceを`Type: LoadBalancer`にしていると、自動的にグローバルIPアドレスを取得してくれます。
+AWSやGCPなどのクラウドプロバイダーの場合、KubernetesのServiceを`Type: LoadBalancer`にしていると、自動的にグローバルIPアドレスを取得してくれます。
 
-オンプレ環境のKubernetesで同様のことをするとPendingになってしましますが、Metallbを使うとこで`Type: LoadBalancer`に設定したServiceにプライベートIPアドレスを振り分ける事ができます。
+オンプレ環境のKubernetesで同様のことをするとPendingになってしましますが、Metallbを使うとこで`Type: LoadBalancer`と設定したServiceに、プライベートIPアドレスを振り分ける事ができます。
 
-今回は、クラスタ間のネットワークにflannelを使っているので、L2ネットワークでIPアドレスを設定していきます。
+今回は、クラスター間のネットワークにflannelを使っているので、L2ネットワークでIPアドレスを設定します。
 
 ## 事前準備
 
-kube-proxyにIPVS mode を使用している且つKubernetes v1.14.2 以降のバージョンの場合は、strictARPを有効にする必要があります。(今回はIPVS modeを使用していないため、割愛します。)
+kube-proxyにIPVS modeを使用している且つKubernetes v1.14.2以降のバージョンの場合は、strictARPを有効にする必要があります。(今回はIPVS modeを使用していないため、割愛します。)
 
 strictARPが有効になっているかは、以下のコマンドで確認できます。
 
@@ -66,9 +66,9 @@ kubectl apply -f https://raw.githubusercontent.com/metallb/metallb/v0.10.2/manif
 
 Flannel Networkのため、L2 ConfigurationのConfigMapを作成します。
 
-address poolは自分の環境(clusterのアドレスレンジの未使用IP)に修正しております。
+`address-pools`は自分の環境(clusterのアドレスレンジの未使用IP)に修正しております。
 
-ちなみに、このaddress poolはflannel networkで使用しているものではなく、Nodeが持つIPのものになっています。
+ちなみに、この`address-pools`はflannel networkで使用しているものではなく、Nodeが持つIPのものになっています。
 
 ```bash
 cat <<EOF | kubectl apply -f -
@@ -208,4 +208,3 @@ nginx            LoadBalancer   10.105.59.75    192.168.100.250   80:31629/TCP  
 - [【手順あり】MetalLBの使い方から動きまで解説します - フラミナル](https://blog.framinal.life/entry/2020/04/16/022042)
 - [Kubernetes\] オンプレK8sでもtype:LoadBalancer Serviceが使えるようになるMetalLBを入れてみた - zaki work log](https://zaki-hmkc.hatenablog.com/entry/2020/07/10/235944)
 - [KubernetesロードバランサーのMetalLBを導入した話(Necoプロジェクト体験入部) - Cybozu Inside Out | サイボウズエンジニアのブログ](https://blog.cybozu.io/entry/2019/03/25/093000)
-

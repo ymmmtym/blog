@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 id: 2021/08/10/02
-title: Docker for MacでVolumeをMount出来ない時の確認
+title: Docker for Macでファイルをマウント出来ない時の解決法
 slug: /2021/08/10/02
 date: 2021-08-10T21:35:00.125Z
 headerImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Docker_%28container_engine%29_logo.png/250px-Docker_%28container_engine%29_logo.png"
@@ -11,9 +11,9 @@ tags:
   - mac
 ---
 
-MacでDocker Volumeをマウント出来なくなったときの確認観点をまとめます。
+Docker(Docker for Mac)にファイルをマウント出来なくなったときの解決法を紹介します。
 
-[ボリュームの利用 | Docker ドキュメント](https://matsuand.github.io/docs.docker.jp.onthefly/storage/volumes/)
+## 前提条件
 
 使用しているバージョン
 
@@ -28,8 +28,13 @@ Docker version 20.10.6, build 370c289
 
 $ docker-compose --version
 docker-compose version 1.26.0, build d4451659
-
 ```
+
+## Docker Volumeの使用方法
+
+Docker Volumeの使用方法については、以下のドキュメントにまとまっています。
+
+[ボリュームの利用 | Docker ドキュメント](https://matsuand.github.io/docs.docker.jp.onthefly/storage/volumes/)
 
 ヘルプは以下のようになっています。
 
@@ -45,7 +50,9 @@ $ docker run --help
       --volumes-from list              Mount volumes from the specified container(s)
 ```
 
-`/var/tmp`をマウントしてみます。
+## マウントに失敗する例
+
+Mac側の`/var/tmp`ディレクトリを、Docker側の`/pwd`マウントしてみます。
 
 ```bash
 $ pwd
@@ -54,18 +61,18 @@ $ ls -l
 total 0
 drwxr-xr-x  2 root      wheel   64  6 10 23:12 KindlePreviewerUpdater/
 drwxr-xr-x  4 root      wheel  128  5 28 09:33 com.paceap.eden.licensed/
-srw-r--r--  1 yukihisa  wheel    0  5 28 09:33 filesystemui.socket=
+srw-r--r--  1 root  wheel    0  5 28 09:33 filesystemui.socket=
 $ docker container run --rm -it -v $PWD:/pwd:rw alpine
 / # ls /pwd/
 / #
 ```
 
-マウントができておりません。
+Docker側の`/pwd`ディレクトリにファイルがなく、マウントができておりません。
 
 ## 解決法
 
-「Preference > Resources」で設定したディレクトリしかマウントする事ができません。
-
-本事象は`/var/tmp`をここに追加して解決できました。
+Docker for Macの設定を開き、「Preference > Resources > FILE SHARING」から`/var/tmp`を追加しました。
 
 ![https://imgur.com/m24kFzQ.png](https://imgur.com/m24kFzQ.png)
+
+Docker for Macでは、上記で設定したディレクトリしかマウントする事ができません。

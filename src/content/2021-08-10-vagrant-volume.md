@@ -1,18 +1,31 @@
 ---
 templateKey: blog-post
 id: 2021/08/10/01
-title: Vagrantの空き容量を増やす
+title: Vagrantで使用されているvmdkファイルを圧縮する方法
 slug: /2021/08/10/01
 date: 2021-08-10T21:35:00.125Z
 headerImage: "https://imgur.com/KjNIPa6.png"
 description: ""
 tags:
   - vagrant
+  - virtualbox
 ---
 
-GuestOS(VM)とHostOSで作業します。
+virtualboxで起動されるVMのdiskは`.vmdk`ファイル形式で作成されます。
+vagrantを使っていると、このvmdkファイルのサイズが大きくなってしまうので、それを圧縮する方法をお伝えします。
 
-## Guest OS
+## 前提
+
+以下の組み合わせで使用している場合になります。
+
+- virtualbox
+- vagrant
+
+## 手順
+
+GuestOS(VM)とHostOS(MacやWindows)で作業します。
+
+### Guest OSでの作業
 
 ストレージの空き容量を0埋めします。
 
@@ -21,7 +34,7 @@ dd if=/dev/zero of=zero bs=4k
 rm -fr zero
 ```
 
-## Host OS
+### Host OSでの作業
 
 GuestOSを停止します。
 
