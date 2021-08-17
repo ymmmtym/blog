@@ -16,9 +16,9 @@ tags:
 
 > Experimental: Wait for a specific condition on one or many resources.
 
-例えば、
+たとえば、
 
-- 全ての namespace の
+- すべての namespace の
 - deployment が available になるまで
 - 300 秒待つ (`timeout` オプションはデフォルトで 30s)
 
