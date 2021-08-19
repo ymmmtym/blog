@@ -43,7 +43,7 @@ jobs:
 
 GitHubをブラウザで開き、Actions タブに移動すると、以下のように Run workflow という項目が追加されています。
 
-![https://i.imgur.com/x4KnxB5.png](https://i.imgur.com/x4KnxB5.png)
+![GitHub Actions workflow_dispatch](https://i.imgur.com/x4KnxB5.png)
 
 ブラウザからは上記から workflow を実行することができ、この時に branch や引数を指定できます。
 
