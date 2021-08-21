@@ -35,7 +35,7 @@ tags:
 
 Hostnamesより、自宅IPアドレスのドメインを取得します。
 
-![no-ip](https://imgur.com/KyjJAJW.png)
+![no-ip](https://imgur.com/GgbigU2.png)
 
 ただし、以下のことは注意する必要があります。
 
@@ -46,7 +46,7 @@ Hostnamesより、自宅IPアドレスのドメインを取得します。
 
 使用したい（サブ）ドメインに、CNAMEレコードをno-ipで取得したドメインに指定します。
 
-![onamae.con cname](https://imgur.com/8k6KXRk.png)
+![onamae.con cname](https://imgur.com/zhqx4XN.png)
 
 ## 動作確認
 
