@@ -1,10 +1,18 @@
 {
     "cSpell.ignoreWords": [
+        "calpa",
+        "calpa's",
         "cname",
+        "doctoc",
         "kubectl",
         "qiita",
         "scrapbox",
         "ymmmtym",
-        "yumenomatayume"
-    ]
+        "yumenomatayume",
+        "yumenomatayume's",
+        "yyyymmdd"
+    ],
+    "markdownlint.config": {
+        "no-multiple-blanks": false
+    }
 }

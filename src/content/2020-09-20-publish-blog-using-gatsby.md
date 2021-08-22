@@ -67,7 +67,7 @@ Get Startedでは、`gatsby-starter-hello-world`と言うテンプレートが�
 ※Demoサイトは[こちら](https://gatsby-starter-hello-world-demo.netlify.app/)です。
 
 ブログのような自分好みのテンプレートを使用したいので、  
-[gatsby-starter-calpa-blog](https://www.gatsbyjs.com/starters/calpa/gatsby-starter-calpa-blog)を使って、ブログを開設していきます。
+[gatsby-starter-calpa-blog](https://www.gatsbyjs.com/starters/calpa/gatsby-starter-calpa-blog)を使って、ブログを開設します。
 
 ![gatsby-starter-calpa-blog](https://www.gatsbyjs.com/static/f81598d7cbc8456a21b1e97b3dd2df46/73c85/59fb651f52f97cafc5e2fec63c05680d-1.png)
 
@@ -75,7 +75,7 @@ Get Startedでは、`gatsby-starter-hello-world`と言うテンプレートが�
 
 ### ソースコードのダウンロード
 
-以下のコマンドを実行することで、`blog`ディレクトリ(名前は任意)にソースコードがダウンロードされます。
+以下のコマンドを実行することで、`blog`ディレクトリ（名前は任意）にソースコードがダウンロードされます。
 
 ```bash
 gatsby new blog https://github.com/calpa/gatsby-starter-calpa-blog
@@ -139,7 +139,7 @@ gatsby build
 gatsby serve
 ```
 
-この場合は、<http://localhost:9000>にアクセスしてWebサイトを確認することができます。
+この場合は、<http://localhost:9000>にアクセスしてWebサイトを確認できます。
 
 ---
 

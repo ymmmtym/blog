@@ -76,7 +76,7 @@ tags:
 markdownファイル名は任意でいいですが、あとで整理しやすいように、  
 `YYYY-MM-DD-<ブログのdescription>.md`のような命名規則にしています。
 
-また指定の**front-matter**(ファイルの一番上に書くやつ)を使用する必要があり、  
+また指定の**front-matter**（ファイルの一番上に書くやつ）を使用する必要があり、  
 本記事だと以下を使用しております。
 
 ```yml
@@ -97,7 +97,7 @@ tags:
 ---
 ```
 
-記事のタイトル(title)やURL(slug)、投稿日(date)などはここで指定します。  
+記事のタイトル (title) や URL(slug)、投稿日 (date) などはここで指定します。  
 これを最上部に書いて、あとは通常通りmarkdown形式で記事を書いていきます。
 
 記事の執筆が完了したら、ファイルを`src/content`ディレクトリに配置します。  
@@ -111,37 +111,37 @@ tags:
 
 ---
 
-私の場合は、お名前.comを使用してドメインを取得しました。  
-既にポートフォリオで使用している`ymmmtym.com`という名前のドメインを取得してましたので、  
-`blog.ymmmtym.com`という名前のドメインを新たに取得しました。(追加料金などは不要)
+私の場合は、`お名前.com`を使用してドメインを取得しました。  
+すでにポートフォリオで使用している`ymmmtym.com`という名前のドメインを取得してましたので、  
+`blog.ymmmtym.com`という名前のドメインを新たに取得しました。（追加料金などは不要）
 
-お名前.comの詳しい使い方は以下のサイトが参考になりました。
+`お名前.com`の詳しい使い方は以下のサイトが参考になりました。
 
 [【ブログ初心者向け】お名前.comで独自ドメインを取得する方法をステップごとに解説](https://tekito-style.me/columns/domain-onamae)
 
 ---
 
-## GithubにソースコードをPush
+## GitHubにソースコードをPush
 
 ---
 
-記事を追加したら、GithubにソースコードをPushします。
+記事を追加したら、GitHubにソースコードをPushします。
 
 この時の注意点として、Publicリポジトリを使用する場合は、  
-secretな情報をソースコードから消しておくことをおすすめします。  
+secret な情報をソースコードから消しておくことをオススメします。  
 (Privateリポジトリを使用する場合は、読み飛ばして大丈夫です。)
 
 ### Gitalkで使用するtokenを修正する
 
-このブログのsecretな情報は、Gitalkで使用するGithubのtokenです。  
+このブログのsecretな情報は、Gitalkで使用するGitHubのtokenです。  
 他のサイトではtokenがベタ書きされているものもありますが、  
-Githubの公式では、公開しない方がいいとのことなので修正します。
+GitHubの公式では、公開しない方がいいとのことなので修正します。
 
-関連のGithub Issue: [console.log(gitalk); 就可以看到 clientID 和 clientSecret，会有安全问题吗？ · Issue #285 · gitalk/gitalk](https://github.com/gitalk/gitalk/issues/285)
+関連のGitHub Issue: [console.log(gitalk); 就可以看到 clientID 和 clientSecret，会有安全问题吗？ · Issue #285 · gitalk/gitalk](https://github.com/gitalk/gitalk/issues/285)
 
 ということで、tokenはコード上に書かず、環境変数から読み取れるように修正します。
 
-まず、`data/template/config.json`に記載されている以下の２行を削除します。
+まず、`data/template/config.json`に記載されている以下の 2 行を削除します。
 
 ```json
     "clientID": "SECRET", // 実際のSECRETにはデフォルトの値が入っています
@@ -150,7 +150,7 @@ Githubの公式では、公開しない方がいいとのことなので修正�
 
 実際に修正したもの: [blog/config.json](https://github.com/ymmmtym/blog/blob/master/data/template/config.json)
 
-次に、`src/templates/blog-post.js`に以下２行を追加します。
+次に、`src/templates/blog-post.js`に以下 2 行を追加します。
 
 ```javascript
     gitalk.clientID = process.env.GATSBY_GITHUB_OAUTH_CLIENT_ID;
@@ -167,12 +167,14 @@ Githubの公式では、公開しない方がいいとのことなので修正�
 ちなみに、環境変数に`GATSBY_`プレフィックスを付けないとGatsby側で認識されません。  
 (知らなくて結構ハマってしましました。。)
 
-もしくは、`.env`や`.env.development`(gatsby develop時のみ有効)、`.env.production`(gatsby build時のみ有効)ファイルを作成して、  
+もしくは、
+`.env`や`.env.development`（gatsby develop 時のみ有効）、
+`.env.production`（gatsby build 時のみ有効）ファイルを作成して、  
 その中に環境変数を記載する必要があります。
 
 参考記事: [GatsbyJS + Netlifyで環境変数を利用するのに迷った話 - Qiita](https://qiita.com/xrxoxcxox/items/4e337b96fc9017b3771c)
 
-コードの修正が完了したので、GithubにPushします。
+コードの修正が完了したので、GitHubにPushします。
 
 ---
 
@@ -186,17 +188,17 @@ Netlifyで**New site from Git**をクリックして、Pushしたリポジトリ
 
 ![netlify-ymmmtym-blog-top](https://imgur.com/SQ2ZV49.jpg)
 
-ここから、**環境変数の設定**と**独自ドメインの設定**をしていきます。
+ここから、**環境変数の設定**と**独自ドメインの設定**をします。
 
 ### 環境変数の設定
 
 **Site Settings > Build & deploy > Environment > Edit variables**の順に進んでいき、  
-環境変数を設定していきます。
+環境変数を設定します。
 
 ![netlify-edit-variables](https://imgur.com/iNj2sJv.jpg)
 
 環境変数の設定はこれだけで完了です。  
-デプロイした時に読み込まれるようになります。
+デプロイしたとき読み込まれるようになります。
 
 ### 独自ドメインの設定
 
@@ -204,7 +206,7 @@ Netlifyで**New site from Git**をクリックして、Pushしたリポジトリ
 独自ドメインを入力して**Verify**をクリックします。
 
 その後、ネームサーバの設定をするように言われたので、  
-以下の4つをお名前.comから登録します。
+以下の4つを`お名前.com`から登録します。
 
 ![netlify-nameserver](https://imgur.com/N8M6Pu3.jpg)
 
@@ -217,14 +219,14 @@ HTTPSの箇所にある**Verify DNS configuration**をクリックします。
 
 ![netlify-apply-ssl](https://imgur.com/YMneg3U.jpg)
 
-以上でNetlifyの設定が全て完了しましたので、サイトをデプロイしてみます。
+以上でNetlifyの設定がすべて完了しましたので、サイトをデプロイしてみます。
 
 **Deploys > Trigger deploy > Deploy site**の順に進みビルドしましょう。
 
 約2分くらいでデプロイが完了しました。  
 <https://blog.ymmmtym.com>にアクセスすると、無事にブログが表示されました。
 
-これ以降は、GithubにPushするだけで自動でデプロイされます。
+これ以降は、GitHubにPushするだけで自動でデプロイされます。
 
 ---
 

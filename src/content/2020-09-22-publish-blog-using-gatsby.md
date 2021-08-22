@@ -25,7 +25,7 @@ tags:
 
 前回では、**gatsby-starter-calpa-blog**を使用して、  
 デフォルトのブログをローカルにダウンロードしました。  
-今回は、デフォルトの状態から自分向けのデザインに変更していきます。
+今回は、デフォルトの状態から自分向けのデザインに変更します。
 
 ---
 
@@ -50,7 +50,7 @@ tags:
 
 ![gatsby-starter-calpa-blog](https://imgur.com/RgF4cDu.jpg)
 
-READMEをみながらローカル環境のソースコードの修正していきます。
+READMEをみながらローカル環境のソースコードの修正します。
 
 ## configの修正
 
@@ -60,7 +60,7 @@ READMEをみながらローカル環境のソースコードの修正してい�
 今回はローカルで開発を行うので、[Configuration](https://github.com/calpa/gatsby-starter-calpa-blog#user-content-develop:~:text=browser-,Configuration)から始めます。
 (Developは前回の内容で完了しています。)
 
-`data/template/config.json`を修正していきます。
+`data/template/config.json`を修正します。
 
 デフォルトのコードは[Github](https://github.com/calpa/gatsby-starter-calpa-blog/blob/master/data/template/config.json)を参考にしてください。
 
@@ -74,7 +74,7 @@ READMEをみながらローカル環境のソースコードの修正してい�
 - ナビゲーションバー
 - Googleサーチコンソール ID(**google\_site\_verification**)
 - Googleアナリティクス ID(**gaTrackId**)
-- Googleタグマネージャ ID(**gaOptimizeId**)
+- Googleタグマネージャー ID(**gaOptimizeId**)
 - Gitalk ID
 
 実際に変更したソースコードは[こちら](https://github.com/ymmmtym/blog/blob/master/data/template/config.json)です。
@@ -97,7 +97,7 @@ READMEをみながらローカル環境のソースコードの修正してい�
 ---
 
 `src/components/`ディレクトリを確認すると、以下のようになっています。  
-以下は全てディレクトリです。
+以下はすべてディレクトリです。
 
 ```console
 yumenomatayume@macbook-pro ~/blog $ tree -L 1
@@ -123,8 +123,8 @@ yumenomatayume@macbook-pro ~/blog $ tree -L 1
 17 directories, 0 files
 ```
 
-この中のファイルを修正すれば、ブログのデザインを変更することができます。  
-例えば`Header`ディレクトリの場合、以下の`index.js`と`index.scss`を修正します。
+この中のファイルを修正すれば、ブログのデザインを変更できます。  
+たとえば`Header`ディレクトリの場合、以下の`index.js`と`index.scss`を修正します。
 
 これらを修正したあとの表示は以下のようになりました。
 
