@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 id: 2021/08/17/03
-title: Qiitaの記事を markdown で一括取得するコマンド
+title: Qiita の記事を markdown で一括取得するコマンド
 slug: /2021/08/17/03
 date: 2021-08-17T22:25:00.125Z
 headerImage: "https://cdn.qiita.com/assets/favicons/public/apple-touch-icon-ec5ba42a24ae923f16825592efdc356f.png"
@@ -31,12 +31,12 @@ Qiita 記事のURLの最後に`.md`をつけることで、記事の markdown �
 
 ## コマンド
 
-- `user_id`に Qiita ユーザー名を指定します。
+- `USERNAME`に Qiita ユーザー名を指定します。
 - 投稿記事が 100 個以上の場合は、`&page=2`を使って繰り返し実行すれば全記事が取得できそうです。
 
 ```bash
-user_id=yumenomatayume # ユーザー名を指定
-articles=$(curl -s "https://qiita.com/api/v2//users/${user_id}/items?per_page=100" | jq -r ".[].url")
+USERNAME=yumenomatayume # ユーザー名を指定
+articles=$(curl -s "https://qiita.com/api/v2//users/${USERNAME}/items?per_page=100" | jq -r ".[].url")
 
 for article in $articles;do
   file=$(echo "$(curl -s $article.md | grep '^title:' | sed -E 's/^title: //g').md" | nkf -w --url-input)
@@ -44,6 +44,14 @@ for article in $articles;do
 done
 ```
 
+## さいごに
+
+以上を踏まえて、Qiita 記事を自動で取得できるリポジトリを作りました。
+
+[ymmmtym/qiita: Qiita Articles](https://github.com/ymmmtym/qiita)
+
+GitHub Actions で、1 時間ごとにコマンドを実行するようにしています。
+
 ## Reference
 
-[自分の Qiita の投稿を markdown で全て手元に落とす](https://dev.to/nekottyo/qiita-markdown-5dbp)
+- [自分の Qiita の投稿を markdown で全て手元に落とす](https://dev.to/nekottyo/qiita-markdown-5dbp)
