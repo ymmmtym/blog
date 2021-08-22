@@ -78,6 +78,8 @@ test2(){
 echo_double(){
     echo $1 $2
 }
+
+echo_double $(test1) $(test2)
 ```
 
 これで実行してみます。
