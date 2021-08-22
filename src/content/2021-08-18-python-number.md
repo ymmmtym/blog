@@ -10,6 +10,18 @@ tags:
   - python
 ---
 
+## 目次
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [各進数の変換](#%E5%90%84%E9%80%B2%E6%95%B0%E3%81%AE%E5%A4%89%E6%8F%9B)
+- [Reference](#reference)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+## 各進数の変換
+
 各進数で `18` を表す場合は以下のように記載します。
 
 - 2 進数: `0b10010`

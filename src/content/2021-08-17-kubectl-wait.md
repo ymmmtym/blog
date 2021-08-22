@@ -16,6 +16,19 @@ tags:
 
 > Experimental: Wait for a specific condition on one or many resources.
 
+## 目次
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [コマンド例](#%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%E4%BE%8B)
+- [使用例](#%E4%BD%BF%E7%94%A8%E4%BE%8B)
+- [その他](#%E3%81%9D%E3%81%AE%E4%BB%96)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+## コマンド例
+
 たとえば、
 
 - すべての namespace の

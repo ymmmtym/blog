@@ -15,6 +15,22 @@ GitHub Actions に schedule を設定しているリポジトリに、60 日間�
 
 実際に、私も[こちら](https://github.com/ymmmtym/templates/actions/workflows/update_submodules.yml)のリポジトリで schedule を設定しているのですが、ふとした時に停止していることに気づきました。
 
+止まってしまった workflow を再開する方法を紹介します。
+
+## 目次
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [再開方法](#%E5%86%8D%E9%96%8B%E6%96%B9%E6%B3%95)
+- [停止しないための対策](#%E5%81%9C%E6%AD%A2%E3%81%97%E3%81%AA%E3%81%84%E3%81%9F%E3%82%81%E3%81%AE%E5%AF%BE%E7%AD%96)
+  - [push する](#push-%E3%81%99%E3%82%8B)
+  - [Pull Request を送る](#pull-request-%E3%82%92%E9%80%81%E3%82%8B)
+  - [Issue を発行する](#issue-%E3%82%92%E7%99%BA%E8%A1%8C%E3%81%99%E3%82%8B)
+- [Reference](#reference)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## 再開方法
 
 リポジトリにアクセスして、**Actions** タブより該当の workflow を選択しましょう。

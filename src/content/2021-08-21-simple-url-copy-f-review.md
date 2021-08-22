@@ -25,6 +25,16 @@ Simple URL Copy [F]とは、[Simple URL Copy](https://chrome.google.com/webstore
 
 この拡張機能を使うことで、上記の形式をすぐにコピーできます。
 
+## 目次
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [使い方](#%E4%BD%BF%E3%81%84%E6%96%B9)
+- [設定方法](#%E8%A8%AD%E5%AE%9A%E6%96%B9%E6%B3%95)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## 使い方
 
 拡張機能のアイコンをクリックするか、 `Ctrl` + `Shift` + `C`（Mac のショートカットキー）を押下すると、設定した形式をコピーできます。

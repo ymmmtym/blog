@@ -21,6 +21,18 @@ Qiita 記事のURLの最後に`.md`をつけることで、記事の markdown �
 
 上記を利用して、自分が投稿した記事の markdown を一括で取得したいと思います。
 
+## 目次
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [前提条件](#%E5%89%8D%E6%8F%90%E6%9D%A1%E4%BB%B6)
+- [コマンド](#%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89)
+- [GitHub Actions に設定する](#github-actions-%E3%81%AB%E8%A8%AD%E5%AE%9A%E3%81%99%E3%82%8B)
+- [Reference](#reference)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## 前提条件
 
 - markdown ファイル名は `記事タイトル.md`
@@ -44,7 +56,7 @@ for article in $articles;do
 done
 ```
 
-## さいごに
+## GitHub Actions に設定する
 
 以上を踏まえて、Qiita 記事を自動で取得できるリポジトリを作りました。
 

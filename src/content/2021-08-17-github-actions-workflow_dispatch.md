@@ -17,6 +17,15 @@ GitHub Actions のイベントトリガーには、`workflow_dispatch` という
 
 これを設定することで、手動で GitHub Actions 実行のトリガーを作ることができます。
 
+## 目次
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [適用したリポジトリ](#%E9%81%A9%E7%94%A8%E3%81%97%E3%81%9F%E3%83%AA%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## 適用したリポジトリ
 
 [terraform-cloud-oci/terraform.yml at main · ymmmtym/terraform-cloud-oci](https://github.com/ymmmtym/terraform-cloud-oci/blob/main/.github/workflows/terraform.yml)

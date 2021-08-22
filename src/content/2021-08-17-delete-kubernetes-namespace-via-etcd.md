@@ -19,9 +19,21 @@ NAME           STATUS        AGE
 rook-ceph      Terminating   2d
 ```
 
+このときの対処法を紹介します。
+
+## 目次
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [解決方法](#%E8%A7%A3%E6%B1%BA%E6%96%B9%E6%B3%95)
+- [Reference](#reference)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## 解決方法
 
-etcd のコンテナに入って無理やり削除しました。
+etcd のコンテナーに入って無理やり削除しました。
 中身を見てみると、関連するリソースが残っていたみたいで、これが原因でnamespaceが削除されなかったみたいです。
 
 ```bash

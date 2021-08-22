@@ -23,6 +23,20 @@ AWSやGCPなどのクラウドプロバイダーの場合、KubernetesのService
 
 今回は、クラスター間のネットワークにflannelを使っているので、L2ネットワークでIPアドレスを設定します。
 
+## 目次
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [事前準備](#%E4%BA%8B%E5%89%8D%E6%BA%96%E5%82%99)
+- [MetalLBのインストール](#metallb%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB)
+- [Config設定](#config%E8%A8%AD%E5%AE%9A)
+- [Create Pod&Service](#create-podservice)
+- [最後に](#%E6%9C%80%E5%BE%8C%E3%81%AB)
+- [Reference](#reference)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## 事前準備
 
 kube-proxyにIPVS modeを使用している且つKubernetes v1.14.2以降のバージョンの場合は、strictARPを有効にする必要があります。(今回はIPVS modeを使用していないため、割愛します。)
@@ -66,7 +80,7 @@ kubectl apply -f https://raw.githubusercontent.com/metallb/metallb/v0.10.2/manif
 
 Flannel Networkのため、L2 ConfigurationのConfigMapを作成します。
 
-`address-pools`は自分の環境(clusterのアドレスレンジの未使用IP)に修正しております。
+`address-pools` は自分の環境（cluster のアドレスレンジの未使用 IP アドレス）に修正しております。
 
 ちなみに、この`address-pools`はflannel networkで使用しているものではなく、Nodeが持つIPのものになっています。
 

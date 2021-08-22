@@ -17,6 +17,20 @@ VyOSはversion1.3以降からrolling releaseで提供されており、最新版
 
 [rolling/current/amd64 • downloads.vyos.io](https://downloads.vyos.io/?dir=rolling/current/amd64)
 
+## 目次
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [アップグレード手順](#%E3%82%A2%E3%83%83%E3%83%97%E3%82%B0%E3%83%AC%E3%83%BC%E3%83%89%E6%89%8B%E9%A0%86)
+  - [TL;DR](#tldr)
+  - [手順](#%E6%89%8B%E9%A0%86)
+- [その他](#%E3%81%9D%E3%81%AE%E4%BB%96)
+- [Reference](#reference)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## アップグレード手順
 
 アップグレードは簡単な手順で実施できます。  
@@ -107,7 +121,8 @@ Done
 
 ## その他
 
-ansibleの`vyos_command`モジュールを使って自動化したかったのですが、promptとanswerがどうもうまく動いてくれませんでした。(rebootすら動かない)
+ansibleの`vyos_command`モジュールを使って自動化したかったのですが、promptとanswerがどうもうまく動いてくれませんでした。
+以下の reboot を実行する playbook すら動きませんでした。
 
 ```yaml
 - name: run command that requires answering a prompt
