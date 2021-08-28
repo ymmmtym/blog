@@ -9,6 +9,8 @@
         "cephclusters",
         "cephfs",
         "cname",
+        "colab",
+        "colabcode",
         "csidrivers",
         "ddns",
         "doctoc",
