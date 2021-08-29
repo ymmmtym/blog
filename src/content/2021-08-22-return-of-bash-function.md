@@ -32,7 +32,7 @@ bash 関数で戻り値を返すには、`echo` コマンドを使用します�
 
 `return` を使用した以下のスクリプト `echo_double.sh` を作成します。
 
-```bash
+```bash:title=echo_double.sh
 #!/usr/bin/env bash
 
 test1(){
@@ -63,7 +63,7 @@ test.sh: line 9: return: fuga: numeric argument required
 
 `return` と記載していたところを `echo` に修正します。
 
-```bash
+```bash:title=echo_double.sh
 #!/usr/bin/env bash
 
 test1(){

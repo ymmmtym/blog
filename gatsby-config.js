@@ -24,15 +24,43 @@ module.exports = {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
+          {
+            resolve: 'gatsby-remark-code-titles',
+          },
           'gatsby-remark-autolink-headers',
+          {
+            resolve: 'gatsby-remark-code-buttons',
+            options: {
+              toasterText: 'Copied!!',
+            },
+          },
           {
             resolve: 'gatsby-remark-prismjs',
             options: {
+              classPrefix: 'language-',
               showLineNumbers: true,
             },
           },
           {
             resolve: 'gatsby-remark-external-links',
+          },
+          {
+            resolve: '@raae/gatsby-remark-oembed',
+            options: {
+              usePrefix: false,
+              providers: {
+                settings: {
+                  hatenablog: {
+                    endpoints: [
+                      {
+                        schemes: ['https://*.hatenablog.com/*'],
+                        url: 'https://hatenablog.com/oembed',
+                      },
+                    ],
+                  },
+                },
+              },
+            },
           },
         ],
       },
