@@ -4,7 +4,7 @@ import { config } from './data';
 
 import installFontAwesome from './src/api/installFontAwesome';
 
-import 'prismjs/themes/prism-solarizedlight.css';
+import 'prismjs/themes/prism-tomorrow.css';
 
 const {
   url, gaTrackId, gaOptimizeId,
