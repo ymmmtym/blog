@@ -10,3 +10,30 @@ $black: #000; // Blue
 $cyan-blue: #8590a6;
 $light-blue: #337ab7;
 $regal-blue: #034378;
+
+pre[class*="language-"] {
+    padding: 1em;
+    margin: 0;
+    overflow: auto;
+}
+
+code[class*='language-'],
+pre[class*='language-'] {
+    color: #fff;
+}
+
+:not(pre)>code[class*='language-text'] {
+    background-color: #dbdbdb;
+    color: #000;
+}
+
+.gatsby-code-title {
+    background: #462f83;
+    color: rgb(255, 255, 255);
+    padding: 6px 12px;
+    font-size: 0.8em;
+    line-height: 1;
+    font-weight: bold;
+    display: table;
+    // border-radius: 4px 4px 0 0;
+}
