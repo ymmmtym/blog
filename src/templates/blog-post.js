@@ -15,6 +15,7 @@ import Content from '../components/Content';
 import SEO from '../components/SEO';
 
 import Header from '../components/Header';
+import Iframely from '../components/Iframely';
 // import TableOfContent from '../components/TableOfContent';
 import ShareBox from '../components/ShareBox';
 
@@ -71,6 +72,7 @@ class BlogPost extends Component {
           authorImage={iconUrl}
           subTitle={parseDate(date)}
         />
+        <Iframely />
         <Sidebar />
         <div className="col-xl-9 col-lg-8 col-md-18 col-sm-18 order-10 content">
           <Content post={html} />

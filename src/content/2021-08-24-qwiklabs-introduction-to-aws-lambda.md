@@ -15,7 +15,7 @@ tags:
   - cloudwatch
 ---
 
-<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://www.qwiklabs.com/focuses/16506?catalog_rank=%7B%22rank%22%3A7%2C%22num_filters%22%3A1%2C%22has_search%22%3Atrue%7D&amp;parent=catalog&amp;search_id=12415632" data-iframely-url="//cdn.iframe.ly/BG3AP5t"></a></div></div><script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>
+<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://www.qwiklabs.com/focuses/16506?catalog_rank=%7B%22rank%22%3A7%2C%22num_filters%22%3A1%2C%22has_search%22%3Atrue%7D&amp;parent=catalog&amp;search_id=12415632" data-iframely-url="//cdn.iframe.ly/BG3AP5t"></a></div></div>
 
 トレーニング内容の再配布はできないため、コースの概要や受講した感想をご紹介します。
 
