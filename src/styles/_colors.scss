@@ -13,7 +13,7 @@ $regal-blue: #034378;
 
 pre[class*="language-"] {
     padding: 1em;
-    margin: 0;
+    margin: 1em 0;
     overflow: auto;
 }
 
@@ -35,5 +35,25 @@ pre[class*='language-'] {
     line-height: 1;
     font-weight: bold;
     display: table;
-    // border-radius: 4px 4px 0 0;
+}
+
+h2,
+h3 {
+    margin: 1% 0;
+    padding: 1%;
+    border-radius: 10px 10px 10px 10px;
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #dddcf5;
+}
+
+h3 {
+    font-weight: bold;
+    background: linear-gradient(transparent 70%, #dddcf5 90%);
+}
+
+ul li p {
+    margin-bottom: 0;
 }
