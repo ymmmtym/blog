@@ -44,7 +44,6 @@ const Head = () => (
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-light.min.css"
     />
-    <script async src="//cdn.iframe.ly/embed.js" charSet="utf-8" />
   </Helmet>
 );
 
