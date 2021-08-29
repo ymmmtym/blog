@@ -28,7 +28,12 @@ module.exports = {
             resolve: `gatsby-remark-code-titles`,
           },
           'gatsby-remark-autolink-headers',
-          // `gatsby-remark-code-titles`,
+          {
+            resolve: 'gatsby-remark-code-buttons',
+            options: {
+              toasterText: 'Copied!!'
+            },
+          },
           {
             resolve: 'gatsby-remark-prismjs',
             options: {

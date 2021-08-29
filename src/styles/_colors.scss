@@ -13,7 +13,8 @@ $regal-blue: #034378;
 
 pre[class*="language-"] {
     padding: 1em;
-    margin: 1em 0;
+    margin-top: 0;
+    margin-bottom: 1em;
     overflow: auto;
 }
 
@@ -35,6 +36,21 @@ pre[class*='language-'] {
     line-height: 1;
     font-weight: bold;
     display: table;
+}
+
+.gatsby-code-button {
+    position: absolute;
+    top: 17px;
+    right: 15px;
+    z-index: 100;
+    &::after {
+        display: none !important;
+    }
+    svg {
+        filter: invert(98%) sepia(5%) saturate(983%) hue-rotate(178deg)
+            brightness(95%) contrast(99%);
+        opacity: 0.9;
+    }
 }
 
 h2,
