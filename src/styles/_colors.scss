@@ -40,8 +40,8 @@ pre[class*='language-'] {
 
 .gatsby-code-button {
     position: absolute;
-    top: 17px;
-    right: 15px;
+    top: -17px ;
+    right: 10px;
     z-index: 100;
     &::after {
         display: none !important;
