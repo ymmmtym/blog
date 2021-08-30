@@ -11,7 +11,7 @@ tags:
   - github-actions
 ---
 
-[ワークフローをトリガーするイベント](https://docs.github.com/ja/actions/reference/events-that-trigger-workflows#workflow_dispatch)
+<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://docs.github.com/ja/actions/reference/events-that-trigger-workflows" data-iframely-url="//cdn.iframe.ly/ZKkSjSX"></a></div></div><script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>
 
 GitHub Actions のイベントトリガーには、`workflow_dispatch` というものがあります。
 
@@ -28,7 +28,7 @@ GitHub Actions のイベントトリガーには、`workflow_dispatch` という
 
 ## 適用したリポジトリ
 
-[terraform-cloud-oci/terraform.yml at main · ymmmtym/terraform-cloud-oci](https://github.com/ymmmtym/terraform-cloud-oci/blob/main/.github/workflows/terraform.yml)
+<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://github.com/ymmmtym/terraform-cloud-oci" data-iframely-url="//cdn.iframe.ly/sU4oQq7?card=small"></a></div></div><script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>
 
 `workflow_dispatch` 箇所を抜粋したものは以下になります。
 
@@ -58,4 +58,4 @@ GitHubをブラウザで開き、Actions タブに移動すると、以下のよ
 
 APIで実行する方法もあるようです。
 
-[GitHub Actionsの手動実行 workflow_dispatchを試す - notebook](https://swfz.hatenablog.com/entry/2020/07/10/201136)
+https://swfz.hatenablog.com/entry/2020/07/10/201136

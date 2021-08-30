@@ -24,7 +24,7 @@ tags:
 
 このブログ開設するためのメモは以下のscrapboxに保存しています。
 
-[Gatsbyで個人ブログを開設する - yumenomatayume](https://scrapbox.io/yumenomatayume/Gatsby%E3%81%A7%E5%80%8B%E4%BA%BA%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92%E9%96%8B%E8%A8%AD%E3%81%99%E3%82%8B)
+<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://scrapbox.io/yumenomatayume/Gatsby%E3%81%A7%E5%80%8B%E4%BA%BA%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92%E9%96%8B%E8%A8%AD%E3%81%99%E3%82%8B" data-iframely-url="//cdn.iframe.ly/JmpKOls?card=small"></a></div></div>
 
 ---
 
@@ -62,7 +62,8 @@ tags:
 執筆する私自身と、ご覧いただく方々にとってお互いメリットがあると思います。
 
 情報発信の重要性は、以下のページがよくまとまっています。  
-[エンジニアが情報発信をする重要性【絶対やるべき】 | Engineer Village](https://engineer-village.com/outgoing-information/)
+
+<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://engineer-village.com/outgoing-information/" data-iframely-url="//cdn.iframe.ly/Jd2l9Yt"></a></div></div>
 
 元々、文章を書くのが上手ではないため、何かを書くのに膨大な時間がかかるタイプでした。
 
@@ -137,7 +138,7 @@ tags:
 簡単にブログを開設できるサービスは多くあります。  
 エンジニア向けの有名どころだと、Mediumやはてなブログが挙げられます。
 
-[エンジニアブログや会社ブログはどこで書くのがいいのか(note,WordPress,はてなブログ) | umi.design](https://umi.design/blog/engineer-blog-dokode/)
+<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="http://umi.design/blog/engineer-blog-dokode/" data-iframely-url="//cdn.iframe.ly/RQb8czL?card=small"></a></div></div>
 
 開設前は、どのサービスを使ってブログを作るか考えてましたが、結局は個人ブログにすることを決めました。
 
@@ -163,8 +164,9 @@ tags:
 
 ※Static Site Generator（SSG）とは静的サイトジェネレーターのことです。
 
-新しいサイトを作りにおいて、WordPress という選択肢は少しレガシーな感じがありました。  
-[WordPressからHugoへ：どうしていま静的サイトなのか](https://mehori.com/blog/2020/04/move-to-hugo-1/)
+新しいサイトを作りにおいて、WordPress という選択肢は少しレガシーな感じがありました。
+
+<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://mehori.com/blog/2020/04/move-to-hugo-1/" data-iframely-url="//cdn.iframe.ly/rjkPhrR?card=small"></a></div></div><script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>
 
 CMSはWebサイトの管理者ページにログインして記事を書くので、  
 脆弱性など考慮すると中途半端な知識で安全に運用するには難しそうだと思った次第です。
@@ -187,8 +189,9 @@ GitHub に記事を Push したら公開されるといった CI/CD でのモダ
 一概に静的サイトジェネレーターと言ってもさまざまな選択肢があったので、  
 正直どれを使用して良いか分かりませんでした。
 
-以下のページで静的サイトジェネレーターの人気が確認できます。  
-[StaticGen | Top Open Source Static Site Generators](https://www.staticgen.com/)
+以下のページで静的サイトジェネレーターの人気が確認できます。
+
+<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://jamstack.org/generators/" data-iframely-url="//cdn.iframe.ly/vBUkOLy?card=small"></a></div></div>
 
 何となく有名どころを使用したいと思ってましたので、以下の3つのどれかを使用することに絞りました。
 
