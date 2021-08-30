@@ -27,16 +27,15 @@
       h#{$i} {
         font-size: 26 - $i * 2px;
         font-weight: 400;
+        margin-top: 42 - $i * 2px;
+        margin-bottom: 1%;
+        padding: 1%;
+        border-radius: 10px 10px 10px 10px;
       }
     }
 
-    h2,h3,h4 {
-      margin: 1% 0;
-      padding: 1%;
-      border-radius: 10px 10px 10px 10px;
-    }
-    
     h2 {
+      font-weight: bold;
       font-family: "Gill Sans", sans-serif;
       background-color: #dddcf5;
     }
