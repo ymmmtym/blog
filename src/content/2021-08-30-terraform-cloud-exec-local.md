@@ -29,6 +29,16 @@ GitHub と連携しているため、terraform コマンドを実行するため
 
 検証環境であれば、もう少し気軽に試したいと思い、ローカルで実行できる方法を探しました。
 
+## 目次
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [terraform.rc を使ってみる](#terraformrc-%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%A6%E3%81%BF%E3%82%8B)
+- [Reference](#reference)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## terraform.rc を使ってみる
 
 `terraform.rc` or `.terraformrc` ファイルに以下のような形で API_TOKEN を書くと、terraform cloud にある tfstate を参照してローカルで動作させる事ができます。
