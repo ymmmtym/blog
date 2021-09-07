@@ -4,7 +4,7 @@ id: hello-world
 title: 個人ブログを開設しました
 slug: /hello-world
 date: 2020-09-20T02:30:00.120Z
-headerImage: ""
+headerImage: "https://imgur.com/pIdoiWV.jpg"
 description: ""
 tags:
   - hello-world
