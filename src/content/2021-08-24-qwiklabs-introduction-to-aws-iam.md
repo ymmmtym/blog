@@ -29,7 +29,6 @@ tags:
   - [使用するサービス](#%E4%BD%BF%E7%94%A8%E3%81%99%E3%82%8B%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9)
 - [構成図](#%E6%A7%8B%E6%88%90%E5%9B%B3)
 - [手順](#%E6%89%8B%E9%A0%86)
-- [正常性確認](#%E6%AD%A3%E5%B8%B8%E6%80%A7%E7%A2%BA%E8%AA%8D)
 - [感想](#%E6%84%9F%E6%83%B3)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
