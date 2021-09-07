@@ -78,7 +78,8 @@
     "functions": "netlify-lambda serve functions",
     "reset": "rimraf pubilc/ .cache/",
     "commit": "npx git-cz",
-    "revert": "node ./scripts/revertConfig.js"
+    "revert": "node ./scripts/revertConfig.js",
+    "content:new": "./bin/create-template-content"
   },
   "devDependencies": {
     "@babel/core": "^7.1.2",
