@@ -13,7 +13,6 @@ import (
 
 var (
 	templateKey string
-	timeNow     string
 	id          string
 	title       string
 	slug        string
@@ -21,7 +20,7 @@ var (
 	headerImage string
 	description string
 	tags        string
-	number      string
+	number      int
 	name        string
 	path        string
 	arr         []string
@@ -29,6 +28,7 @@ var (
 )
 
 const (
+	content       string = `src/content/`
 	toc_exist_txt string = `## 目次
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->`
@@ -44,25 +44,33 @@ func get_toc_txt(toc bool) string {
 }
 
 func init() {
-	timeNow := time.Now()
-	flag.StringVar(&number, "n", "01", "number")
+	flag.IntVar(&number, "n", 1, "number")
 	flag.StringVar(&templateKey, "template-key", "blog-post", "")
-	flag.StringVar(&id, "id", timeNow.Format("2006/01/02/")+number, "")
-	flag.StringVar(&title, "title", "title", "")
-	flag.StringVar(&slug, "slug", timeNow.Format("/2006/01/02/")+number, "")
-	flag.StringVar(&date, "date", timeNow.Format(time.RFC3339), "")
+	flag.StringVar(&title, "title", "draft", "title")
+	flag.StringVar(&date, "date", time.Now().Format(time.RFC3339), "UTC format")
 	flag.StringVar(&headerImage, "header-image", "https://imgur.com/pIdoiWV.jpg", "")
-	flag.StringVar(&description, "description", "", "")
-	flag.StringVar(&tags, "tags", "", "")
+	flag.StringVar(&description, "description", "", "description")
+	flag.StringVar(&tags, "tags", "", "-tags=tag1,tag2,...")
 	flag.StringVar(&name, "name", "draft", "")
-	flag.StringVar(&path, "path", "src/content/"+timeNow.Format("2006-01-02-")+name+".md", "")
 	flag.BoolVar(&toc, "toc", true, "Create TOC")
 	flag.Parse()
 }
 
+func timeToString(t time.Time, layout string) string {
+	str := t.Format(layout)
+	return str
+}
+
+func stringToTime(str string, layout string) time.Time {
+	t, _ := time.Parse(layout, str)
+	return t
+}
+
 func main() {
+	id := stringToTime(date, time.RFC3339).Format("2006/01/02/") + fmt.Sprintf("%02d", number)
+	slug := "/" + id
 	arr := strings.Split(tags, ",")
-	path := "src/content/" + time.Now().Format("2006-01-02-") + name + ".md"
+	path := content + stringToTime(date, time.RFC3339).Format("2006-01-02-") + name + ".md"
 
 	m := map[interface{}]interface{}{
 		"templateKey": templateKey,
