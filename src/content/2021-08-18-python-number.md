@@ -3,7 +3,7 @@ templateKey: blog-post
 id: 2021/08/18/02
 title: python 2,8,10,16進数の変換
 slug: /2021/08/18/02
-date: 2021-08-18T23:15:00.125Z
+date: 2021-08-18T23:15:00+09:00
 headerImage: "https://www.python.org/static/img/python-logo.png"
 description: ""
 tags:

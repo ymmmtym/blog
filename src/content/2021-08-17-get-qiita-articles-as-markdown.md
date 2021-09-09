@@ -3,7 +3,7 @@ templateKey: blog-post
 id: 2021/08/17/03
 title: Qiita の記事を markdown で一括取得するコマンド
 slug: /2021/08/17/03
-date: 2021-08-17T22:25:00.125Z
+date: 2021-08-17T22:25:00+09:00
 headerImage: "https://cdn.qiita.com/assets/favicons/public/apple-touch-icon-ec5ba42a24ae923f16825592efdc356f.png"
 description: ""
 tags:

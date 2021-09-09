@@ -3,7 +3,7 @@ templateKey: blog-post
 id: 2021/07/24/01
 title: VyOSのバージョンをアップグレードする手順
 slug: /2021/07/24/01
-date: 2021-07-24T18:30:03.125Z
+date: 2021-07-24T18:30:03+09:00
 headerImage: "https://imgur.com/4p9fGcp.png"
 description: ""
 tags:

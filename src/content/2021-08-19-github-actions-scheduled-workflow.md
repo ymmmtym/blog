@@ -3,7 +3,7 @@ templateKey: blog-post
 id: 2021/08/19/01
 title: GitHub Actions の schedule が停止した時の再開方法
 slug: /2021/08/19/01
-date: 2021-08-19T21:30:00.125Z
+date: 2021-08-19T21:30:00+09:00
 headerImage: "https://imgur.com/z1NIlzb.png"
 description: ""
 tags:

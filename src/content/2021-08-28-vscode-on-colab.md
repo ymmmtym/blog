@@ -3,7 +3,7 @@ templateKey: blog-post
 id: 2021/08/28/01
 title: Google Colab で VS Code を使用する
 slug: /2021/08/28/01
-date: 2021-08-28T16:55:00.125Z
+date: 2021-08-28T16:55:00+09:00
 headerImage: "https://imgur.com/LHNTBMn.png"
 description: ""
 tags:

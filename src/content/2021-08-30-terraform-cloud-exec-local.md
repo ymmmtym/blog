@@ -3,7 +3,7 @@ templateKey: blog-post
 id: 2021/08/30/01
 title: terraform cloud で tfstate を管理している時ローカルで terraform を実行する方法
 slug: /2021/08/30/01
-date: 2021-08-30T19:25:00.125Z
+date: 2021-08-30T19:25:00+09:00
 headerImage: "https://imgur.com/RXiX3OS.png"
 description: ""
 tags:

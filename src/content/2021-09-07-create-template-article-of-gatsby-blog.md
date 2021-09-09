@@ -48,7 +48,7 @@ templateKey: blog-post # 固定
 id: 2021/08/19/01 # YYYY/MM/DD/その日に書いた記事の順番
 title: GitHub Actions の schedule が停止した時の再開方法 # 記事のタイトル、h1扱い
 slug: /2021/08/19/01
-date: 2021-08-19T21:30:00.125Z
+date: 2021-08-19T21:30:00+09:00
 headerImage: "https://imgur.com/z1NIlzb.png" # アイキャッチの画像
 description: ""
 tags: # タグをリストで記載

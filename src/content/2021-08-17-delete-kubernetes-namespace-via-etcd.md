@@ -3,7 +3,7 @@ templateKey: blog-post
 id: 2021/08/17/01
 title: kubernetes で namespace が消えない時の対処法
 slug: /2021/08/17/01
-date: 2021-08-17T11:45:00.125Z
+date: 2021-08-17T11:45:00+09:00
 headerImage: "https://imgur.com/VRR1bTW.png"
 description: ""
 tags:

@@ -3,7 +3,7 @@ templateKey: blog-post
 id: 2021/07/25/01
 title: MetalLBをinstallする手順(L2ネットワーク版)
 slug: /2021/07/25/01
-date: 2021-07-25T01:50:00.125Z
+date: 2021-07-25T01:50:00+09:00
 headerImage: "https://imgur.com/a5HEHEH.png"
 description: ""
 tags:

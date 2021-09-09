@@ -3,7 +3,7 @@ templateKey: blog-post
 id: 2021/08/17/04
 title: GitHub Actions workflow_dispatch の設定してみる
 slug: /2021/08/17/04
-date: 2021-08-17T23:00:00.125Z
+date: 2021-08-17T23:00:00+09:00
 headerImage: "https://raw.githubusercontent.com/github/explore/2c7e603b797535e5ad8b4beb575ab3b7354666e1/topics/actions/actions.png"
 description: ""
 tags:

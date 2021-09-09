@@ -3,7 +3,7 @@ templateKey: blog-post
 id: 2021/08/18/01
 title: Mac で Markdown に絵文字を使用するときのメモ
 slug: /2021/08/18/01
-date: 2021-08-18T22:30:00.125Z
+date: 2021-08-18T22:30:00+09:00
 headerImage: "https://imgur.com/6yUlN8D.png"
 description: ""
 tags:
