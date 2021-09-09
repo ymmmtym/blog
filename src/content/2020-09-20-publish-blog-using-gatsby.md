@@ -3,7 +3,7 @@ templateKey: blog-post
 id: 2020/09/20/01
 title: Gatsbyでブログを開設する① 【インストール編】
 slug: /2020/09/20/01
-date: 2020-09-20T10:40:03.125Z
+date: 2020-09-20T10:40:03+09:00
 headerImage: "https://imgur.com/RgF4cDu.jpg"
 description: ""
 tags:

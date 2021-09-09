@@ -3,7 +3,7 @@ templateKey: blog-post
 id: 2021/08/17/02
 title: kubectl wait コマンドを使ってみる
 slug: /2021/08/17/02
-date: 2021-08-17T17:50:00.125Z
+date: 2021-08-17T17:50:00+09:00
 headerImage: "https://imgur.com/IcWawg8.png"
 description: ""
 tags:

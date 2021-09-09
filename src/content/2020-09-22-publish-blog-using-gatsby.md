@@ -3,7 +3,7 @@ templateKey: blog-post
 id: 2020/09/22/01
 title: Gatsbyでブログを開設する② 【デザイン編】
 slug: /2020/09/22/01
-date: 2020-09-22T10:40:03.125Z
+date: 2020-09-22T10:40:03+09:00
 headerImage: "https://imgur.com/1iUZtX8.jpg"
 description: ""
 tags:

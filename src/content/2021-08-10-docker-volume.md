@@ -3,7 +3,7 @@ templateKey: blog-post
 id: 2021/08/10/02
 title: Docker for Macでファイルをマウント出来ない時の解決法
 slug: /2021/08/10/02
-date: 2021-08-10T21:35:00.125Z
+date: 2021-08-10T21:35:00+09:00
 headerImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Docker_%28container_engine%29_logo.png/250px-Docker_%28container_engine%29_logo.png"
 description: ""
 tags:

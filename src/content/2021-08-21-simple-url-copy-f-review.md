@@ -3,7 +3,7 @@ templateKey: blog-post
 id: 2021/08/21/01
 title: URL を自由なフォーマットでコピーできる Chrome 拡張機能「Simple URL Copy [F]」の使い方
 slug: /2021/08/21/01
-date: 2021-08-21T20:30:00.125Z
+date: 2021-08-21T20:30:00+09:00
 headerImage: "https://imgur.com/cEJGWaw.png"
 description: ""
 tags:

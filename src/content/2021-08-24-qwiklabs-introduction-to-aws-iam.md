@@ -3,7 +3,7 @@ templateKey: blog-post
 id: 2021/08/24/02
 title: "[Qwiklabs] Introduction to AWS Identity and Access Management（ハンズオン）を実施してみました"
 slug: /2021/08/24/02
-date: 2021-08-24T12:40:00.125Z
+date: 2021-08-24T12:40:00+09:00
 headerImage: "https://imgur.com/y3f4qwQ.png"
 description: ""
 tags:

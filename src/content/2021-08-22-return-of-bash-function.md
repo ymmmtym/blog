@@ -3,7 +3,7 @@ templateKey: blog-post
 id: 2021/08/22/01
 title: シェルスクリプトの関数から戻り値を返す方法
 slug: /2021/08/22/01
-date: 2021-08-22T17:35:00.125Z
+date: 2021-08-22T17:35:00+09:00
 headerImage: "https://imgur.com/GruKxmG.png"
 description: ""
 tags:

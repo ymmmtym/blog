@@ -3,7 +3,7 @@ templateKey: blog-post
 id: 2021/08/10/01
 title: Vagrantで使用されているvmdkファイルを圧縮する方法
 slug: /2021/08/10/01
-date: 2021-08-10T21:35:00.125Z
+date: 2021-08-10T21:35:00+09:00
 headerImage: "https://imgur.com/KjNIPa6.png"
 description: ""
 tags:
