@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+SKIP_WORD='DOCTOC SKIP'
+CONTENT="src/content"
+OPTIONS="--github"
+
+ack -L "${SKIP_WORD}" ${CONTENT}/* | xargs doctoc ${OPTIONS}
+
