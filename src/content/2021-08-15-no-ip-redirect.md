@@ -4,7 +4,7 @@ id: 2021/08/15/01
 title: お名前.comのドメインを自宅IPアドレスのドメインとして使用する方法
 slug: /2021/08/15/01
 date: 2021-08-15T15:50:00+09:00
-headerImage: "https://imgur.com/KyjJAJW.png"
+headerImage: "https://imgur.com/GgbigU2.png"
 description: ""
 tags:
   - DNS
