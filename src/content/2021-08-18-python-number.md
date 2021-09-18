@@ -4,7 +4,7 @@ id: 2021/08/18/02
 title: python 2,8,10,16進数の変換
 slug: /2021/08/18/02
 date: 2021-08-18T23:15:00+09:00
-headerImage: "https://www.python.org/static/img/python-logo.png"
+headerImage: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Python_logo_and_wordmark.svg/2560px-Python_logo_and_wordmark.svg.png
 description: ""
 tags:
   - python
@@ -15,7 +15,8 @@ tags:
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 
-- [各進数の変換](#%E5%90%84%E9%80%B2%E6%95%B0%E3%81%AE%E5%A4%89%E6%8F%9B)
+- [目次](#目次)
+- [各進数の変換](#各進数の変換)
 - [Reference](#reference)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
