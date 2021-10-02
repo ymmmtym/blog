@@ -15,8 +15,7 @@ tags:
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 
-- [目次](#目次)
-- [各進数の変換](#各進数の変換)
+- [各進数の変換](#%E5%90%84%E9%80%B2%E6%95%B0%E3%81%AE%E5%A4%89%E6%8F%9B)
 - [Reference](#reference)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
