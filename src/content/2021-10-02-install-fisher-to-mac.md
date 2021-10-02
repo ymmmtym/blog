@@ -91,3 +91,8 @@ Fisher 自体を含むすべてのプラグインをアンインストールす�
 ```fish
 fisher list | fisher remove
 ```
+
+## Reference
+
+- [jorgebucaran/fisher: A plugin manager for Fish.](https://github.com/jorgebucaran/fisher)
+- [fish shell](https://fishshell.com/)

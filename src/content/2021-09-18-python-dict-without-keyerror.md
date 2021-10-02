@@ -42,10 +42,9 @@ dict 型に存在しないキーがあった場合、処理を分ける例を紹
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 
-- [目次](#目次)
-- [try, except で例外処理する](#try-except-で例外処理する)
-- [get() を使う](#get-を使う)
-- [Reference（参考文献）](#reference参考文献)
+- [try, except で例外処理する](#try-except-%E3%81%A7%E4%BE%8B%E5%A4%96%E5%87%A6%E7%90%86%E3%81%99%E3%82%8B)
+- [get() を使う](#get-%E3%82%92%E4%BD%BF%E3%81%86)
+- [Reference（参考文献）](#reference%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
