@@ -39,7 +39,7 @@ tags:
 - `ymmmtym.serbeer.com`
   - no-ipで取得する無料ドメイン
   - 自宅のグローバルIPアドレスのAレコード
-- `home.ymmmtym.com`
+- `home.yumenomatayume.net`
   - `お名前.com` で取得するドメイン（今回はサブドメインを使用したので、追加料金はかかりませんでした。）
   - no-ipで取得した無料ドメインにリダイレクトさせる
 
@@ -65,9 +65,9 @@ Hostnames より、自宅IPアドレスのドメインを取得します。
 digコマンドで確認すると、no-ipで取得したドメインがCNAMEで登録されていることがわかります。
 
 ```bash
-$ dig home.ymmmtym.com
+$ dig home.yumenomatayume.net
 
-; <<>> DiG 9.10.6 <<>> home.ymmmtym.com
+; <<>> DiG 9.10.6 <<>> home.yumenomatayume.net
 ;; global options: +cmd
 ;; Got answer:
 ;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 4207
@@ -76,10 +76,10 @@ $ dig home.ymmmtym.com
 ;; OPT PSEUDOSECTION:
 ; EDNS: version: 0, flags:; udp: 1232
 ;; QUESTION SECTION:
-;home.ymmmtym.com.		IN	A
+;home.yumenomatayume.net.		IN	A
 
 ;; ANSWER SECTION:
-home.ymmmtym.com.	3600	IN	CNAME	ymmmtym.servebeer.com.
+home.yumenomatayume.net.	3600	IN	CNAME	ymmmtym.servebeer.com.
 
 ;; AUTHORITY SECTION:
 servebeer.com.		41	IN	SOA	nf1.no-ip.com. hostmaster.no-ip.com. 2018412264 90 120 604800 60

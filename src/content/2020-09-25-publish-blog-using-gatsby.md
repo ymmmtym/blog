@@ -112,8 +112,8 @@ tags:
 ---
 
 私の場合は、`お名前.com`を使用してドメインを取得しました。  
-すでにポートフォリオで使用している`ymmmtym.com`という名前のドメインを取得してましたので、  
-`blog.ymmmtym.com`という名前のドメインを新たに取得しました。（追加料金などは不要）
+すでにポートフォリオで使用している`yumenomatayume.net`という名前のドメインを取得してましたので、  
+`blog.yumenomatayume.net`という名前のドメインを新たに取得しました。（追加料金などは不要）
 
 `お名前.com`の詳しい使い方は以下のサイトが参考になりました。
 
@@ -224,7 +224,7 @@ HTTPSの箇所にある**Verify DNS configuration**をクリックします。
 **Deploys > Trigger deploy > Deploy site**の順に進みビルドしましょう。
 
 約2分くらいでデプロイが完了しました。  
-<https://blog.ymmmtym.com>にアクセスすると、無事にブログが表示されました。
+<https://blog.yumenomatayume.net>にアクセスすると、無事にブログが表示されました。
 
 これ以降は、GitHubにPushするだけで自動でデプロイされます。
 

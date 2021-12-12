@@ -54,4 +54,4 @@ credentials "app.terraform.io" {
 - [Terraform Cloud は AWS の credentials を持たせずに tfstate だけ管理することができる | DevelopersIO](https://dev.classmethod.jp/articles/manage-tfstate-terraform-cloud/)
 - [CLI Configuration - Terraform by HashiCorp](https://www.terraform.io/docs/cli/config/config-file.html)
 
-[^1]: [GitHub Actions workflow_dispatch の設定してみる | yumenomatayume's Blog](https://blog.ymmmtym.com/2021/08/17/04) より、workflow_dispatch で実行することもできます。
+[^1]: [GitHub Actions workflow_dispatch の設定してみる | yumenomatayume's Blog](https://blog.yumenomatayume.net/2021/08/17/04) より、workflow_dispatch で実行することもできます。

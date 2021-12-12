@@ -12,7 +12,7 @@ templateKey: blog-post
 title: 【Gatsby】 個人ブログ記事のテンプレートファイルを Go 言語で作成する
 ---
 
-[yumenomatayume's Blog](https://blog.ymmmtym.com/)
+[yumenomatayume's Blog](https://blog.yumenomatayume.net/)
 
 [ymmmtym/blog: yumenomatayume's personal blog](https://github.com/ymmmtym/blog)
 
@@ -57,7 +57,7 @@ tags: # タグをリストで記載
 ---
 ```
 
-[このサイトについて | yumenomatayume's Blog](https://blog.ymmmtym.com/about#%E3%83%A1%E3%82%BF%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6)
+[このサイトについて | yumenomatayume's Blog](https://blog.yumenomatayume.net/about#%E3%83%A1%E3%82%BF%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6)
 
 これを毎回手入力で作成するのは手間なので、テンプレートを用意して効率的に作成する準備をします。
 
