@@ -5,7 +5,7 @@ module.exports = {
   siteMetadata: {
     title: 'yumenotamayume&apos;s Blog',
     description: 'yumenotamayume\'s Technical Blog',
-    siteUrl: 'https://blog.ymmmtym.com',
+    siteUrl: 'https://blog.yumenomatayume.net',
     author: 'yumenomatayume',
   },
   plugins: [

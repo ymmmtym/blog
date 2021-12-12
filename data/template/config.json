@@ -1,7 +1,7 @@
 {
-  "url": "https://blog.ymmmtym.com",
+  "url": "https://blog.yumenomatayume.net",
   "meta": {
-    "favicon": "https://i.imgur.com/URVOqgc.jpg",
+    "favicon": "https://imgur.com/zWY9lPt.png",
     "keyword": "yumenomatayume, ymmmtym, blog, engneer",
     "description": "Infra Engnerr yumenomatayumeのブログです。技術的な発信をします。",
     "theme_color": "#dda0dd",
@@ -9,9 +9,9 @@
   },
   "name": "yumenomatayume",
   "about": "/about",
-  "email": "yume.to.mata.yume@gmail.com",
+  "email": "yumenomatayume@yumenomatayume.net",
   "stats": {
-    "image": "https://i.imgur.com/URVOqgc.jpg",
+    "image": "https://imgur.com/zWY9lPt.png",
     "title": "yumenomatayume's Blog",
     "description": "yumenomatayume's Blog"
   },
@@ -26,13 +26,13 @@
   "License": "yumenomatayume",
   "friends": [
     {
-      "href": "https://ymmmtym.com",
+      "href": "https://yumenomatayume.net",
       "title": "yumenomatayume's Portfolio"
     }
   ],
-  "iconUrl": "https://i.imgur.com/URVOqgc.jpg",
+  "iconUrl": "https://imgur.com/zWY9lPt.png",
   "wordings": ["Infra Engneer", "Cloud"],
-  "gaTrackId": "UA-75448960-4",
+  "gaTrackId": "G-CWFKM9195N",
   "navbarList": [
     {
       "href": "/hello-world/",
@@ -53,10 +53,10 @@
       "fromPath": "/about/"
     }
   ],
-  "gaOptimizeId": "GTM-WRS6JRZ",
+  "gaOptimizeId": "OPT-PL6M7FZ",
   "carouselItems": [
     {
-      "src": "https://i.imgur.com/URVOqgc.jpg",
+      "src": "https://imgur.com/zWY9lPt.png",
       "target": "/stats/"
     }
   ],
