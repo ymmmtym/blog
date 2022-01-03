@@ -1,5 +1,6 @@
 {
     "cSpell.ignoreWords": [
+        "Monalisa",
         "apiextensions",
         "apiregistration",
         "apiservices",
@@ -22,6 +23,7 @@
         "kube",
         "kubectl",
         "kubernetes",
+        "octocat",
         "qiita",
         "qwiklabs",
         "scrapbox",
