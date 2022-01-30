@@ -26,7 +26,9 @@ rook-ceph      Terminating   2d
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 
-- [解決方法](#%E8%A7%A3%E6%B1%BA%E6%96%B9%E6%B3%95)
+- [目次](#目次)
+- [解決方法](#解決方法)
+  - [追記](#追記)
 - [Reference](#reference)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -73,6 +75,20 @@ Error: del command needs one argument as key and an optional argument as range_e
 kubectl get ns rook-ceph
 Error from server (NotFound): namespaces "rook-ceph" not found
 ```
+
+### 追記
+
+[cert-manager の公式ドキュメント](https://cert-manager.io/docs/installation/helm/)にも似たような記述がありました。
+
+> cert-managerインストールを削除せずにネームスペースを削除するようにマークした場合、ネームスペースが終了状態で立ち往生することがあります。これは通常、APIService リソースはまだ存在するが、Webhook が実行されていないため、到達できなくなることが原因です。この問題を解決するには、上記のコマンドを正しく実行したことを確認し、それでも問題が発生する場合は、次のコマンドを実行します。
+
+```bash
+kubectl delete apiservice v1beta1.webhook.cert-manager.io
+```
+
+namespace のみを削除した場合、`APIService` が残っていることが原因で Terminating 状態のまま namespace が消えないようです。
+
+作成されるリソースは把握しておくことが大事です。
 
 ## Reference
 
