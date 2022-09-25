@@ -91,7 +91,7 @@
     "eslint-plugin-react": "7.29.4",
     "gh-pages": "3.2.3",
     "husky": "1.3.1",
-    "lint-staged": "12.4.0",
+    "lint-staged": "12.5.0",
     "prettier": "1.19.1",
     "stylelint": "9.10.1",
     "stylelint-config-recommended-scss": "3.3.0",
