@@ -5,6 +5,7 @@ import Transition from '../Transition';
 import Navbar from '../Navbar';
 import Head from './Head';
 import Footer from '../Footer';
+import MigrationNotice from '../MigrationNotice';
 import './index.scss';
 
 if (typeof window !== 'undefined') {
@@ -17,6 +18,7 @@ const Layout = ({ children, location }) => (
   <div className="layout">
     <Head />
     <Navbar location={location} />
+    <MigrationNotice />
     <Transition location={location}>
       <div className="container-fluid">{children}</div>
     </Transition>
