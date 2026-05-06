@@ -27,7 +27,7 @@ function MigrationNotice() {
             yumenomatayume.net
           </a>
           &nbsp;のブログページへ移行しました。
-          2026/3/31 に本サイトは閉鎖し、新しいサイトにリダイレクトされます。
+          2026/5/31 に本サイトは閉鎖し、新しいサイトにリダイレクトされます。
         </span>
         <button type="button" className="close-btn" onClick={handleClose}>×</button>
       </div>
